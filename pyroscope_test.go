@@ -8,10 +8,10 @@ import (
 
 func TestStart(t *testing.T) {
 	c := Config{
-		registry:        "pyroscope",
-		applicationName: "testApp",
+		Registry:        "pyroscope",
+		ApplicationName: "testApp",
 	}
-	ncp := NeutralCP{config: c}
+	ncp := NeutralCP{Config: c}
 
 	ctx := context.Background()
 	ctx, cancel := context.WithTimeout(ctx, 1*time.Second)

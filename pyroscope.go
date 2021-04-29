@@ -8,9 +8,9 @@ import (
 
 func (n *NeutralCP) startPyroscope(ctx context.Context) error {
 	p, err := profiler.Start(profiler.Config{
-		ApplicationName: n.config.applicationName,
+		ApplicationName: n.Config.ApplicationName,
 
-		ServerAddress: n.config.serverAddress,
+		ServerAddress: n.Config.ServerAddress,
 
 		ProfileTypes: []profiler.ProfileType{
 			profiler.ProfileCPU,
