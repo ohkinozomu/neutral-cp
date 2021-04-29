@@ -10,7 +10,7 @@ func (n *NeutralCP) startPyroscope(ctx context.Context) error {
 	p, err := profiler.Start(profiler.Config{
 		ApplicationName: n.config.applicationName,
 
-		ServerAddress: "http://localhost:4040",
+		ServerAddress: n.config.serverAddress,
 
 		ProfileTypes: []profiler.ProfileType{
 			profiler.ProfileCPU,

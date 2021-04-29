@@ -9,6 +9,7 @@ import (
 type Config struct {
 	registry        string
 	applicationName string
+	serverAddress   string
 }
 
 type NeutralCP struct {
