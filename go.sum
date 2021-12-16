@@ -556,6 +556,8 @@ github.com/pyroscope-io/pyroscope v0.2.5 h1:EQoFT135U8DSqgW28QkEVCSlHsNif3nES1bV
 github.com/pyroscope-io/pyroscope v0.2.5/go.mod h1:rsxrQhp2XnrfdzHd2ZPBT5LvqYqv352C9YTjyDEUP+8=
 github.com/pyroscope-io/pyroscope v0.4.1 h1:gedU6dQ1hfCCZrM42MPMm5ZBZhgGhZr1sp5gPNqAd2g=
 github.com/pyroscope-io/pyroscope v0.4.1/go.mod h1:5jmVCakelKEUDrff74hOv44qY5qIHTYqJXmh44XG78w=
+github.com/pyroscope-io/pyroscope v0.5.1 h1:YXzUjkSkpFffIu+NAf99bW9AjSWqZ3JQTUAKa9YD6Bc=
+github.com/pyroscope-io/pyroscope v0.5.1/go.mod h1:5jmVCakelKEUDrff74hOv44qY5qIHTYqJXmh44XG78w=
 github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
