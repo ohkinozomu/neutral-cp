@@ -4,8 +4,6 @@ neutral-cp is facade for continuous profiling.
 
 ## registries
 
-- pyroscope
+- Pyroscope
 
-- conprof(TODO)
-
-- profefe(TODO)
+- Cloud Profiler

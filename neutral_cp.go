@@ -10,6 +10,7 @@ type Config struct {
 	Registry        string
 	ApplicationName string
 	ServerAddress   string
+	Version         string
 }
 
 type NeutralCP struct {
@@ -22,7 +23,8 @@ func (n *NeutralCP) Start(ctx context.Context) error {
 	switch n.Config.Registry {
 	case "pyroscope":
 		n.startPyroscope(ctx)
-
+	case "cloud-profiler":
+		n.startCloudProfiler(ctx)
 	default:
 		return errors.New("unsupported registry: " + n.Config.Registry)
 	}
