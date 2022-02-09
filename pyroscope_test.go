@@ -8,7 +8,7 @@ import (
 
 func TestStart(t *testing.T) {
 	c := Config{
-		Registry:        "pyroscope",
+		Registry:        PYROSCOPE,
 		ApplicationName: "testApp",
 	}
 	ncp := NeutralCP{Config: c}
