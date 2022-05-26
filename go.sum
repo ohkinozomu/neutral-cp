@@ -607,6 +607,7 @@ github.com/pyroscope-io/goldga v0.4.2-0.20220218190441-817afcc3a7f1/go.mod h1:Pb
 github.com/pyroscope-io/jfr-parser v0.1.0/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/jfr-parser v0.4.0/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/jfr-parser v0.4.1/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
+github.com/pyroscope-io/jfr-parser v0.5.1/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/pyroscope v0.9.0 h1:BT7A8yxlchj8Q4kSCyy8xkNpdrDgkUIbIdmU40hQw9A=
 github.com/pyroscope-io/pyroscope v0.9.0/go.mod h1:RBjXErgPSxSMnrvS/scHlH6FWa5NBk4m9hXg732NztM=
 github.com/pyroscope-io/pyroscope v0.10.2 h1:QgkoH+Uq7WnRCCNlZ/R0ikaCebe047baActZW1umdMQ=
@@ -625,6 +626,8 @@ github.com/pyroscope-io/pyroscope v0.15.4 h1:b3VdQTnUed7ZPsqxi15T3VBIBne0l710Bye
 github.com/pyroscope-io/pyroscope v0.15.4/go.mod h1:Sv0/kkYE6x3kXoPi1UZcF9BI4cFet4xWGk+rY7IasEk=
 github.com/pyroscope-io/pyroscope v0.16.0 h1:nthNiPflfCQIOIato0X7xPWfU06j4OsLzn3MpesTTsk=
 github.com/pyroscope-io/pyroscope v0.16.0/go.mod h1:Sv0/kkYE6x3kXoPi1UZcF9BI4cFet4xWGk+rY7IasEk=
+github.com/pyroscope-io/pyroscope v0.17.1 h1:pCs+dbyTDSluR3kAElDWwCmi0Gu30OOB/aOvc9dwLNo=
+github.com/pyroscope-io/pyroscope v0.17.1/go.mod h1:qA6nxd5PZI/ajEb+2h+cHaL48wdmKZqXnPZ0CawWtWw=
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rlmcpherson/s3gof3r v0.5.0/go.mod h1:s7vv7SMDPInkitQMuZzH615G7yWHdrU2r/Go7Bo71Rs=
