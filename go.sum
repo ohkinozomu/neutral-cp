@@ -212,6 +212,7 @@ github.com/go-logr/logr v0.4.0/go.mod h1:z6/tIYblkpsD+a4lm/fGIIU9mZ+XfAiaFtq7xTg
 github.com/go-logr/logr v1.0.0/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/logr v1.2.0/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/logr v1.2.1/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
+github.com/go-logr/logr v1.2.3/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/stdr v1.2.0/go.mod h1:YkVgnZu1ZjjL7xTxrfm/LLZBfkhTqSR1ydtm6jTKKwI=
 github.com/go-ole/go-ole v1.2.5 h1:t4MGB5xEDZvXI+0rMjjsfBsD7yAgp/s9ZDkL1JndXwY=
 github.com/go-ole/go-ole v1.2.5/go.mod h1:pprOEPIfldk/42T2oK7lQ4v4JSDwmV0As9GaiUsvbm0=
@@ -608,6 +609,7 @@ github.com/pyroscope-io/jfr-parser v0.1.0/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRW
 github.com/pyroscope-io/jfr-parser v0.4.0/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/jfr-parser v0.4.1/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/jfr-parser v0.5.1/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
+github.com/pyroscope-io/jfr-parser v0.5.2/go.mod h1:ZMcbJjfDkOwElEK8CvUJbpetztRWRXszCmf5WU0erV8=
 github.com/pyroscope-io/pyroscope v0.9.0 h1:BT7A8yxlchj8Q4kSCyy8xkNpdrDgkUIbIdmU40hQw9A=
 github.com/pyroscope-io/pyroscope v0.9.0/go.mod h1:RBjXErgPSxSMnrvS/scHlH6FWa5NBk4m9hXg732NztM=
 github.com/pyroscope-io/pyroscope v0.10.2 h1:QgkoH+Uq7WnRCCNlZ/R0ikaCebe047baActZW1umdMQ=
@@ -630,6 +632,8 @@ github.com/pyroscope-io/pyroscope v0.17.1 h1:pCs+dbyTDSluR3kAElDWwCmi0Gu30OOB/aO
 github.com/pyroscope-io/pyroscope v0.17.1/go.mod h1:qA6nxd5PZI/ajEb+2h+cHaL48wdmKZqXnPZ0CawWtWw=
 github.com/pyroscope-io/pyroscope v0.18.0 h1:4dPjTwCPhQ0piInM5qnbN/Rk3zrUhyZcYybqHmQ+6DY=
 github.com/pyroscope-io/pyroscope v0.18.0/go.mod h1:qA6nxd5PZI/ajEb+2h+cHaL48wdmKZqXnPZ0CawWtWw=
+github.com/pyroscope-io/pyroscope v0.19.0 h1:X+LMFAGbte6s0c4Vcn6DyFmIXLqKHW8TwzbJAVQgkoE=
+github.com/pyroscope-io/pyroscope v0.19.0/go.mod h1:+cNmi/QB8HdIsdZ7QmuIRb3YLpFsI1rQ6F0okQ5foG8=
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rlmcpherson/s3gof3r v0.5.0/go.mod h1:s7vv7SMDPInkitQMuZzH615G7yWHdrU2r/Go7Bo71Rs=
@@ -689,6 +693,7 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
 github.com/tklauser/go-sysconf v0.3.6 h1:oc1sJWvKkmvIxhDHeKWvZS4f6AW+YcoguSfRF2/Hmo4=
 github.com/tklauser/go-sysconf v0.3.6/go.mod h1:MkWzOF4RMCshBAMXuhXJs64Rte09mITnppBXY/rYEFI=
