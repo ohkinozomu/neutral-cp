@@ -680,6 +680,8 @@ github.com/pyroscope-io/pyroscope v0.19.0 h1:X+LMFAGbte6s0c4Vcn6DyFmIXLqKHW8Twzb
 github.com/pyroscope-io/pyroscope v0.19.0/go.mod h1:+cNmi/QB8HdIsdZ7QmuIRb3YLpFsI1rQ6F0okQ5foG8=
 github.com/pyroscope-io/pyroscope v0.20.0 h1:hpgpOQidan60JLjsXdvCHrZ2V7B5+Bv2dgrGC4Yk0JQ=
 github.com/pyroscope-io/pyroscope v0.20.0/go.mod h1:YA/XmOMw8de8i4dhy6+DhDc25rvdfHADltO9s9wNok0=
+github.com/pyroscope-io/pyroscope v0.24.0 h1:Ks3iOPiP79DKhq5ycEafH6A5AZ07FncVLKxqAh5wRPI=
+github.com/pyroscope-io/pyroscope v0.24.0/go.mod h1:YA/XmOMw8de8i4dhy6+DhDc25rvdfHADltO9s9wNok0=
 github.com/rivo/uniseg v0.1.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rlmcpherson/s3gof3r v0.5.0/go.mod h1:s7vv7SMDPInkitQMuZzH615G7yWHdrU2r/Go7Bo71Rs=
