@@ -3,21 +3,21 @@ package neutral_cp
 import (
 	"context"
 
-	"github.com/pyroscope-io/pyroscope/pkg/agent/profiler"
+	"github.com/grafana/pyroscope-go"
 )
 
 func (n *NeutralCP) startPyroscope(ctx context.Context) error {
-	p, err := profiler.Start(profiler.Config{
+	p, err := pyroscope.Start(pyroscope.Config{
 		ApplicationName: n.Config.ApplicationName,
 
 		ServerAddress: n.Config.ServerAddress,
 
-		ProfileTypes: []profiler.ProfileType{
-			profiler.ProfileCPU,
-			profiler.ProfileAllocObjects,
-			profiler.ProfileAllocSpace,
-			profiler.ProfileInuseObjects,
-			profiler.ProfileInuseSpace,
+		ProfileTypes: []pyroscope.ProfileType{
+			pyroscope.ProfileCPU,
+			pyroscope.ProfileAllocObjects,
+			pyroscope.ProfileAllocSpace,
+			pyroscope.ProfileInuseObjects,
+			pyroscope.ProfileInuseSpace,
 		},
 	})
 	if err != nil {
