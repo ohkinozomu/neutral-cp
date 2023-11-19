@@ -3,7 +3,8 @@ package neutral_cp
 import (
 	"context"
 	"errors"
-	"log"
+
+	"go.uber.org/zap"
 )
 
 type Config struct {
@@ -17,14 +18,20 @@ type NeutralCP struct {
 	Config Config
 }
 
-func (n *NeutralCP) Start(ctx context.Context) error {
-	log.Println("Start neutral-cp")
+func (n *NeutralCP) Start(ctx context.Context, logger *zap.Logger) error {
+	logger.Info("Start neutral-cp")
 
 	switch n.Config.Registry {
 	case PYROSCOPE:
-		n.startPyroscope(ctx)
+		err := n.startPyroscope(ctx)
+		if err != nil {
+			return err
+		}
 	case CLOUD_PROFILER:
-		n.startCloudProfiler(ctx)
+		err := n.startCloudProfiler(ctx)
+		if err != nil {
+			return err
+		}
 	default:
 		return errors.New("unsupported registry")
 	}
