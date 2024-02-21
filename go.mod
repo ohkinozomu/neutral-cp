@@ -5,7 +5,7 @@ go 1.19
 require (
 	cloud.google.com/go/profiler v0.4.0
 	github.com/grafana/pyroscope-go v1.0.4
-	go.uber.org/zap v1.26.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
